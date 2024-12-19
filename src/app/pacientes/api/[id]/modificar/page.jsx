@@ -70,7 +70,7 @@ export default async function PacientesModificar({ params }) {
                         <label htmlFor="fecha_nacimiento" className="text-2xl font-semibold">Fecha de Nacimiento:</label>
                         <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" className="text-xl p-1 text-center bg-gray-800 text-gray-50 border-b-2 border-gray-600 focus:border-orange-400 focus:outline-none" defaultValue={new Date(paciente.fecha_nacimiento).toISOString().split('T')[0]} />
 
-                        <Button type="submit" className="mt-4 p-2 bg-orange-500 text-black font-semibold rounded-full hover:bg-orange-600 transition-colors">
+                        <Button type="submit" className="disabled:bg-slate-600 mt-4 p-2 bg-orange-500 text-black font-semibold rounded-full hover:bg-orange-600 transition-colors ">
                             Guardar cambios
                         </Button>
                     </form>

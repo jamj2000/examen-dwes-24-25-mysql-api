@@ -73,7 +73,7 @@ export default async function MedicosModificar({ params }) {
                             <option value="RESIDENTE">Residente</option>
                         </select>
 
-                        <Button type="submit" className="mt-4 p-2 bg-orange-500 text-black font-semibold rounded-full hover:bg-orange-600 transition-colors">
+                        <Button type="submit" className="disabled:bg-slate-600 mt-4 p-2 bg-orange-500 text-black font-semibold rounded-full hover:bg-orange-600 transition-colors ">
                             Guardar cambios
                         </Button>
                     </form>
