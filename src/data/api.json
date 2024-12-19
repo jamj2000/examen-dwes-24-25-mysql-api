@@ -1,0 +1,54 @@
+{
+  "medicos": [
+    {
+      "id": "1",
+      "nombre": "Pablo",
+      "especialidad": "Urólogo",
+      "perfil": "ESPECIALISTA"
+    },
+    {
+      "id": "2",
+      "nombre": "Miguel",
+      "especialidad": "Psicologo",
+      "perfil": "ESPECIALISTA"
+    },
+    {
+      "id": "3",
+      "nombre": "Lola",
+      "especialidad": "Enfermera",
+      "perfil": "RESIDENTE"
+    }
+  ],
+  "pacientes": [
+    {
+      "nombre": "Angel",
+      "localidad": "Castro del Rio",
+      "fecha_nacimiento": "2000-01-01",
+      "id": "1"
+    },
+    {
+      "nombre": "Jose",
+      "localidad": "Castro del Rio",
+      "fecha_nacimiento": "1995-02-02",
+      "id": "2"
+    },
+    {
+      "nombre": "Pani",
+      "localidad": "Aguilar",
+      "fecha_nacimiento": "1990-03-03",
+      "id": "3"
+    },
+    {
+      "nombre": "Pepito grillo 3",
+      "localidad": "Montilla",
+      "fecha_nacimiento": "2024-12-02",
+      "id": "62a4"
+    },
+    {
+      "id": "c6c0",
+      "nombre": "Pepito grillo",
+      "localidad": "bb",
+      "fecha_nacimiento": "2024-12-03"
+    }
+  ]
+}
