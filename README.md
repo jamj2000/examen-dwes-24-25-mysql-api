@@ -1,8 +1,13 @@
+# Solución a Prueba DWES Tema 4
+
+[Enunciado de la prueba](Enunciado_Prueba.pdf)
+
+
 ## INSTRUCCIONES
 
 1. Instalar dependencias:
    ```
-   npm i
+   npm install
    ```
 
 2. Iniciar servidor de JSON para la API:

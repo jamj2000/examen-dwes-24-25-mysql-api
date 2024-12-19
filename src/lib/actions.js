@@ -3,8 +3,8 @@ import { redirect } from "next/navigation";
 import { deleteCookie, setCookie } from "@/lib/cookies";
 
 const usuarios = [
-  { nombre: 'usuario1', key: 'usuario1' },
-  { nombre: 'usuario2', key: 'usuario2' },
+  { nombre: 'medico1', key: 'medico1' },
+  { nombre: 'medico2', key: 'medico2' },
 ]
 
 
